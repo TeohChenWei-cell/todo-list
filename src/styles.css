@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.task-form input,
+.task-form textarea,
+.task-form select,
+.task-form button {
+    resize: none;
+    width: 97%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.task-form select {
+    width: 100%;
+}
+
+.task-form textarea {
+    height: 100px;
+}
+
+.task-form button {
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.task-form button:hover {
+    background: darkgreen;
+}
+
+.task {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.task.completed {
+    background: #e6ffe6;
+    text-decoration: line-through;
+}
+
+.priority-high {
+    border-left: 6px solid red;
+}
+
+.priority-medium {
+    border-left: 6px solid orange;
+}
+
+.priority-low {
+    border-left: 6px solid green;
+}
+
+.task-buttons button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn-complete {
+    background: green;
+    color: white;
+    border: none;
+}
+
+.btn-edit {
+    background: orange;
+    color: white;
+    border: none;
+}
+
+.btn-delete {
+    background: red;
+    color: white;
+    border: none;
+}
